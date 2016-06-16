@@ -1,6 +1,6 @@
 Name:           perl-Ref-Util
-Version:        0.021
-Release:        2%{?dist}
+Version:        0.020
+Release:        1%{?dist}
 Summary:        Utility functions for checking references
 License:        MIT
 Group:          Development/Libraries
@@ -50,6 +50,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Thu Jun 16 2016 Nicholas van Oudtshoorn <vanoudt@gmail.com> 0.020-1
 * Thu Jun 09 2016 Nicholas van Oudtshoorn <vanoudt@gmail.com> 0.021-1
 - Manually updated the version just because it is easy
 * Thu Jun 09 2016 Nicholas van Oudtshoorn <vanoudt@gmail.com> 0.020-1
