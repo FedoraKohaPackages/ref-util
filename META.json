@@ -1,0 +1,52 @@
+{
+   "abstract" : "Utility functions for checking references",
+   "author" : [
+      "Sawyer X <xsawyerx@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 7.1, CPAN::Meta::Converter version 2.142690",
+   "license" : [
+      "mit"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Ref-Util",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Exporter" : "5.57",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/p5pclub/ref-util/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/p5pclub/ref-util.git",
+         "web" : "https://github.com/p5pclub/ref-util"
+      }
+   },
+   "version" : "0.020"
+}
